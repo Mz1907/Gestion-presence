@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4d554480843b498a9801813865ab2fb2" Name="Diagram1">
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.Certificate" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.Course" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.Courseoccurrence" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.Presence" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.Student" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="prbd_1718_presences_g03.Model.User" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.certificate_certificate_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.course_course_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.courseoccurrence_courseoccurrence_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.presence_presence_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.presence_presence_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="prbd_1718_presences_g03.Model.studentcourses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
